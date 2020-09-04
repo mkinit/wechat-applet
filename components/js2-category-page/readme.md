@@ -26,4 +26,4 @@
 
 ## 该组件只做了基本的联动功能，实际渲染数据和结构请根据项目需求修改。
 
-![image](https://github.com/mkinit/wechat-applet/blob/master/components/js2-category-page/demo.gif)
+![image](https://github.com/mkinit/wechat-applet/raw/master/components/js2-category-page/demo.gif)
