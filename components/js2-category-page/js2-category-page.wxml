@@ -1,0 +1,16 @@
+<!--components/js2-category-page/js2-category-page.wxml-->
+<view class="categories">
+		<scroll-view scroll-y class="category" scrollTop="{{menu_top}}" scroll-with-animation>
+			<view class="category-item {{menu_index==index?'current':''}}" data-index="{{index}}" bindtap="scrollTo" wx:for="{{categories}}" wx:key="id">{{item.name}}</view>
+		</scroll-view>
+		<scroll-view scroll-y class="goods-container" scroll-into-view="{{'f-'+current_floor}}" scroll-with-animation bindscroll="onScroll">
+			<view class="goods-list">
+				<view class="goods-item"  wx:for="{{categories}}" wx:key="id">
+					<view class="category-name" id="{{'f-'+index}}">{{item.name}}</view>
+					<view class="goods-box">
+						<view class="goods" wx:for="{{item.goods}}" wx:for-item="goods" wx:key="id">{{goods.title}}</view>
+					</view>
+				</view>
+			</view>
+		</scroll-view>
+	</view>

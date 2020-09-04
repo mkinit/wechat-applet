@@ -1,0 +1,51 @@
+/* components/js2-category-page/js2-category-page.wxss */
+.categories{
+	display: flex;
+}
+.category{
+	height:100vh;
+	width:30vw;
+	text-align: center;
+	border-right: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+}
+.category-item{
+	white-space:nowrap;
+	border-bottom: 1px solid #CCC;
+	line-height: 2.5em;
+}
+.category-item.current{
+	background-color:#EEE;
+}
+
+.goods-container{
+	height:100vh;
+}
+.goods-list{
+	padding:0 30rpx;
+	box-sizing: border-box;
+}
+.category-name{
+	font-size: 1.2em;
+	text-align:center;
+	border-bottom:2px solid #CCC;
+	padding-bottom:10rpx;
+	margin-bottom:30rpx;
+}
+
+.goods-item{
+	padding-bottom:60rpx;
+}
+.goods-box{
+	margin-top:10rpx;
+}
+.goods{
+	display: inline-block;
+	width:46%;
+	border:1px solid #CCC;
+	margin:0 2%;
+	box-sizing: border-box;
+	margin-bottom:20rpx;
+	text-align: center;
+	line-height: 20vw;	
+}
